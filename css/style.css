@@ -34,20 +34,27 @@
 }
 
 .boton {
-  position: absolute;
   width: 160px;
-  height: 30px;
-  right: 540px;
-  bottom: 280px;
+  height: 40px;
+
   border: solid 1px rgb(37, 150, 190);
   font-family: monospace;
-  font-size: 1.5em;
+  font-size: 1.4em;
   border-radius: 15px;
+  align-self: center;
+  margin-top: 20px;
+  margin-left: 100px;
 }
 
 .boton:hover {
   border: solid 4px rgb(37, 150, 190);
   font-family: monospace;
-  font-size: 1.6em;
+  font-size: 1.5em;
   border-radius: 15px;
+  height: 50px;
+}
+
+.navbar {
+  color: rgb(37, 150, 190);
+  background-color: hsla(0, 100%, 90%, 0.3);
 }
