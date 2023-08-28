@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "morty";
+  src: url("../assets/fuentes/morty.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "bop";
+  src: url("../assets/fuentes/BlackOpsOne-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.navbar-nav {
+  margin-right: 10%;
+}
+nav {
+  background-image: url(../assets/bgImage);
+}
+.nav-link {
+  font-family: morty;
+  color: white !important;
+  font-size: 1.5rem !important;
+}
+
+.nav-link:hover {
+  border-radius: 15px;
+  height: 50px;
+  filter: drop-shadow(2px 2px 1px #d6e54f);
+  font-size: 1.5em;
+}
+#formularioBusqueda {
+  background-color: #0a243c;
+}
+::placeholder {
+  color: grey !important;
+  font-size: 1em;
+}
+.card {
+  background-color: #3c3a4a !important;
+  box-shadow: 5px 5px 25px 5px #6e6f7c !important;
+  border-radius: 10px !important;
+}
+.card-body {
+  font-family: bop !important;
+}
+.cardLink {
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  color: white;
+}
+.cardLink:hover {
+  color: rgb(255, 152, 0);
+  background: rgb(32, 35, 41);
+}
+.cardInfo_Status {
+  border-radius: 10px !important;
+  background-color: #0a243c67;
+}
+.main {
+  background-image: url(../assets/bgImage);
+}
+
+.navbar-brand:hover {
+  filter: drop-shadow(5px 10px 4px #d6e54f);
+}
